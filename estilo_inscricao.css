@@ -1,0 +1,32 @@
+#header{
+    padding: 20px 10px;
+    background: grey;
+}
+
+body{
+    font-size: 20;
+}
+label, input[type="submit"]{
+    display: block;
+    padding: 15px 0px 5px 0px;
+}
+
+input[type="text"]{
+    width: 500;
+    height: 30;
+}
+/*input{
+    padding: 0px 0px 5px 0px;
+}*/
+
+input[type="submit"]{
+    background: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 0;
+}
+
+input[type="submit"]:hover{
+    background: #555555;
+}
